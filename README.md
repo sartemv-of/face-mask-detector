@@ -1,12 +1,12 @@
 # Face-Mask_Detector
 
-## Дипломный проект
-
 ## Создание системы мониторинга и контроля доступа на основе распознавания образов
+
+## [**Полная инструкция установки инструментария**](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
 
 ### Используемые технологии
 
-- [**Conda** 4.12.0](https://www.anaconda.com/) с [**Python** 3.9.7](https://www.python.org/)
+- [**Conda** 4.12.0](https://www.anaconda.com/) с [**Python** 3.9.11](https://www.python.org/)
 - [**Tensorflow** 2.8.0](https://www.tensorflow.org/)
 - [**Keras** 2.8.0](https://keras.io/)
 - [**OpenCV** 4.5.5](https://opencv.org/)
@@ -32,15 +32,12 @@ conda install -c anaconda lxml
 conda install pyqt=5
 ```
 
+### Пакет для работы модуля VLC
+
+``` pip
+pip install python-vlc
+```
+
 ### Использованный набор данных
 
 - [**Kaggle**. Face Mask Detection by Larxel](https://www.kaggle.com/andrewmvd/face-mask-detection) из *853* изображений
-
-## В маске
-
-![Кадр в маске](WithMask1.png)  
-![Кадр в маске](WithMask2.png)
-
-## Без маски
-
-![Кадр без маски](WithoutMask.png)
